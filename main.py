@@ -7,7 +7,8 @@ if __name__ == '__main__':
                                         "sharp and beautiful. Use French, English, Russian and Chinese "
                                         "to compliment her. She is a great friend. Use only one "
                                         "sentence for each language.",
-                  max_tokens=1500,
-                  save_format='md')
-    main_openai(**params)  # will save a file named 'response.md' in the same directory
+                  max_tokens=1500,  # only change it if your input and output are too long
+                  save_format='md')  # can be 'md' or 'txt' or anything you think is convenient
+
+    main_openai(**params)  # will save a file named 'response' in the format you choose in the same directory
 
