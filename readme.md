@@ -4,7 +4,7 @@ Basically it is just using Openai API to generate text.
 
 # How to use
 
-1. Install `requests` module
+1. Install python and `requests` module
    - pip install requests
 2. Contact Victor to get the API key
 3. Open main.py and change the text to whatever you want
