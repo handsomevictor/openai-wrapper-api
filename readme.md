@@ -7,7 +7,7 @@ Basically it is just using Openai API to generate text.
 1. Install python and `requests` module
    - pip install requests
 2. Contact Victor to get the API key
-3. Open main.py and change the text to whatever you want
+3. Open main.py, change the API key and the text to whatever you want
 4. Run main.py and then the text will be generated (several seconds or 10-20 seconds depending on the length of the 
    text gpt3 needs to generate), then the result would be saved to a file called response.md or txt depending on the
    format you choose.
