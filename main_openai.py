@@ -17,7 +17,7 @@ def main_openai(api_key, text_you_want_to_send, max_tokens=1500, save_format='md
     if res.status_code == 200:
         res = res.json()['response']
     else:
-        print(f'Error: {res.status_code}, please contact Victor.')
+        raise Exception(f'Error: {res.status_code}, please contact Victor.')
 
     with open(f'response.{save_format}', 'w') as f:
         f.write(res)
