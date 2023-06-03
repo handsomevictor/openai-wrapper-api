@@ -1,4 +1,4 @@
-This is a very stupid script for letting my friend use ChatGPT 3.5 in Hong Kong.
+This is a very stupid script for letting my friend use ChatGPT 3.5 in Hong Kong and Mainland.
 
 Basically it is just using Openai API to generate text.
 
@@ -13,4 +13,5 @@ Basically it is just using Openai API to generate text.
    format you choose.
 
 
-Victor used very simple Flask to build the whole thing, and it's only for his friends' use and for himself don't hesitate to contact him if you have any questions.
+Victor used very simple Flask to build the whole thing, and it's only for training purposes and for 
+his friends' use and for himself don't hesitate to contact him if you have any questions.
